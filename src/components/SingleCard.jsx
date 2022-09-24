@@ -8,7 +8,7 @@ import TelegramIcon from '@material-ui/icons/Telegram';
 
 const useStyles = makeStyles({
   root: {
-    maxWidth: 445,
+    maxWidth: 400,
     border: '1px solid #b3b3b3',
     borderBottom : '15px solid #750B0B',
     borderRadius:'10px'
@@ -34,7 +34,7 @@ const SingleCard= ()=> {
   return (
     <Card className={classes.root}>
       <CardActionArea>
-        <img src={url} alt="Fabiflu" height="250px" width="425px" style={{margin:'10px'}}/>
+        <img src={url} alt="Fabiflu" height="250px" width="380px" style={{margin:'10px'}}/>
         
         <CardContent>
         <Typography className={classes.heading}>
